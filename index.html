@@ -26,10 +26,54 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
+
   <body>
     <div class="page">
-      Testando...
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Logo"
+            class="nav__logo"
+          />
+
+          <ul class="nav__links">
+            <li><a href="#recipes" class="nav__link">Receitas</a></li>
+            <li><a href="#booking" class="nav__link">Reservar uma mesa</a></li>
+            <li><a href="#menu" class="nav__link">Menu</a></li>
+            <li><a href="#contacts" class="nav__link">Contatos</a></li>
+          </ul>
+        </nav>
+
+        <h1 class="header__title">
+          <span class="header__span-accent">Café especial</span>
+          <span>na biblioteca Triple Peaks</span>
+        </h1>
+
+        <p class="header__description">
+          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt=""
+          class="header__image"
+        />
+
+        <span class="header__footer">
+          <p class="header__schedule">
+            Horários:<br />
+            Segunda a sexta (10:00 – 19:00)<br />
+            Sábado a domingo (11:00 – 18:00)
+          </p>
+
+          <span class="header__address">
+            200 Success Avenue, a cidade de Triple Peaks
+          </span>
+        </span>
+      </header>
+
       <main class="content">
         <section class="recips"></section>
         <section class="reservation"></section>
