@@ -237,6 +237,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 100px;
 }
 
 .form {
@@ -254,12 +255,11 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding-top: 100px;
 }
 
 .reservation__form {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  margin-top: 80px;
+  margin-bottom: 120px;
 }
 
 .reservation__form-fildset {
