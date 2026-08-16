@@ -234,35 +234,37 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 385px;
+  margin: 0 auto;
+  font-family: Inter;
+  font-style: normal;
 }
 
 .reservation__title {
   margin: 0;
   display: flex;
   justify-content: center;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  padding-top: 100px;
 }
 
 .reservation__form {
-  width: 100%;
-  max-width: 385px;
-  margin: 0 auto;
   padding-top: 80px;
+  padding-bottom: 120px;
 }
 
 .reservation__form-fildset {
   display: flex;
   flex-direction: column;
-
   margin: 0;
   padding: 0;
   border: none;
@@ -270,8 +272,6 @@
 
 .reservation__label {
   display: block;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -282,8 +282,6 @@
   display: block;
   width: 100%;
   box-sizing: border-box;
-  font-family: Inter;
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -298,8 +296,6 @@
   display: block;
   width: 100%;
   max-width: 385px;
-  font-family: Inter;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
