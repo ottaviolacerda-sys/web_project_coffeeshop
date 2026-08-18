@@ -1,0 +1,88 @@
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.reservation__title {
+  margin: 0px auto 80px auto;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 0 auto 120px;
+}
+
+.reservation__form-fildset {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.reservation__label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 8px;
+}
+
+.reservation__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  height: 60px;
+  padding: 15px 20px;
+  border: 0;
+  margin-bottom: 32px;
+}
+
+.reservation__button {
+  display: block;
+  width: 100%;
+  max-width: 385px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  border: 0;
+  padding: 0;
+  height: 60px;
+  color: white;
+  background-color: #2f80ed;
+  opacity: 0.7;
+}
+
+.reservation__button:hover {
+  opacity: 1;
+}
+
+.reservation__checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 2px;
+  padding-top: 32px;
+  justify-content: center;
+}
+
+.reservation__checkbox-input {
+  width: 20px;
+  height: 20px;
+}

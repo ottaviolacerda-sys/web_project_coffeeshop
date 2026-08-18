@@ -1,0 +1,74 @@
+/* BLOCO PRINCIPAL */
+.recipes {
+  background-color: #0a2750;
+  background-image: url("../images/background_recipes.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 100px 80px 215px 80px;
+  color: #ffffff;
+}
+
+/* TÍTULO */
+.recipes__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  max-width: 580px;
+}
+
+/* SUBTÍTULO */
+.recipes__subtitle {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 24px;
+  max-width: 438px;
+}
+
+/* WRAPPER DOS VÍDEOS */
+.recipes__videos {
+  max-width: 1000px;
+  max-height: 327px;
+  display: flex;
+  gap: 40px;
+  margin: 80px auto 0;
+}
+
+/* ITEM DE VÍDEO */
+.recipes__video-item {
+  width: 480px;
+  height: 327px;
+  display: inline-block;
+  margin: 0;
+}
+
+/* IFRAME */
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
+  border: none;
+}
+
+/* LEGENDA */
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:
+    "Inter" Arial,
+    sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 24px;
+}
