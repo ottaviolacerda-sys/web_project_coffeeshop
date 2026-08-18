@@ -11,9 +11,8 @@
 .footer__content {
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  min-height: 200px; /* Ajuste conforme necessário */
+  max-height: 84px; /* Ajuste conforme necessário */
 }
 
 /* ===== LOGO + CÍRCULO ===== */
@@ -52,7 +51,11 @@
 }
 
 .footer__social-heading {
-  margin-bottom: 10px;
+  margin: 0 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
 }
 
 .footer__list {
@@ -70,14 +73,18 @@
 .footer__social-link {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   color: #ffffff;
   text-decoration: none;
 }
 
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
 }
 
 /* ===== COPYRIGHT ===== */
@@ -85,5 +92,4 @@
   margin: 0;
   margin-top: 108px;
   text-align: left;
-  font-size: 14px;
 }

@@ -6,11 +6,13 @@
   background-position: center;
   background-size: cover;
   padding: 30px 80px 40px 80px;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 720px;
   max-height: 800px;
   position: relative;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 .header__title {
   max-width: 709px;
