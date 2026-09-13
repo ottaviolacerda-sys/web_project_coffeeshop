@@ -9,6 +9,7 @@
   left: -50px;
   height: 39px;
   width: 105px;
+  object-fit: contain;
 }
 
 .nav__links {
@@ -30,4 +31,34 @@
 }
 .nav__link:hover {
   color: #2f80ed;
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 6px;
+  }
+
+  .nav__logo {
+    left: 0;
+    width: 70px;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  .nav__links {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 5px;
+    min-width: 0;
+    justify-self: end;
+  }
+
+  .nav__link {
+    font-size: 10px;
+    line-height: 14px;
+    white-space: nowrap;
+  }
 }

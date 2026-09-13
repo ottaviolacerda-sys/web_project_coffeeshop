@@ -2,7 +2,7 @@
 .footer {
   background-color: #0a2850;
   color: #ffffff;
-  padding: 60px 80px;
+  padding: 60px clamp(20px, 5vw, 80px);
   font-family: "Inter", Arial, sans-serif;
   overflow: hidden;
 }
@@ -90,4 +90,38 @@
   margin: 0;
   margin-top: 108px;
   text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 48px;
+    padding-bottom: 32px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .footer__social {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .footer__social-link {
+    justify-content: flex-start;
+  }
+
+  .footer__circle {
+    width: 260px;
+    height: 260px;
+    top: -140px;
+    left: -96px;
+  }
+
+  .footer__copyright {
+    margin-top: 64px;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
